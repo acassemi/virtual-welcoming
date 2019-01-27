@@ -42,7 +42,7 @@ The backend has Database APIs and Commands APIs. These APIs were written to prov
 
 The Database APIs are Contacts, Rooms, Meetings, Checkings, WebexDevices and DigitalSignage.
 The Commands APIs are Checkin, Teams, Email, SMS, SignageContent, CallConnect and NetworkAccess.
-The ./DW-API Guide.md and ./DW-DataSchema.pdf files contain detailed information about these APIs.
+The ./docs/DW-API Guide.md and ./docs/DW-DataSchema.pdf files contain detailed information about these APIs.
 
 The interaction of the web frontend with the backend uses the APIs, as well as the backend interaction with Cisco Webex Teams, Cisco Identity Services Engine and Cisco Vision / Digital Media Player (DMP) uses the respective APIs of these products.
 
@@ -116,8 +116,8 @@ Place the videos make to show the path from the checkin location to each of the 
 
 Pointer to reference documentation for this project.
 
-./DW-API Guide.md
-./DW-DataSchema.pdf
+./docs/DW-API Guide.md
+./docs/DW-DataSchema.pdf
 
 ## License
 
