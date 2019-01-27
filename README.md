@@ -36,7 +36,7 @@ Our solution will levegerage the following Cisco technologies
 
 Provide a brief overview of the components involved with this project. e.g Python -->
 
-The solution developed encompass a javascript based backend, web frontend and a MongoDB database.
+The solution developed encompass a javascript based backend, flask/python web frontend and a MongoDB database.
 
 The backend has Database APIs and Commands APIs. These APIs were written to provide a more structured way to other components interact with the database and the services responsible to interact with the visitor and the host.
 
@@ -68,7 +68,7 @@ Provide a brief overview of how to use the solution  -->
 
 To use the solution we will have to setup the following components:
 
-1) run on your server httpd and node.js with all the modules required
+1) run on your server httpd,flask and node.js with all the modules required
 2) setup an account on Webex Teams
 3) setup a Cisco Identity Services Engine for guest access and enable API services
 4) setup a Cisco DMP 4310
@@ -84,9 +84,11 @@ How to install or setup the project for use.
 Clone the repository
 Install httpd
 Install node.js
+Install flask
 Install MongoDB
 Install the required modules for node and MongoDB
 Start the backend (start.sh)
+Start the frontend (run.sh)
 
 * ISE Installation
 First setup your ISE to allow the creation of guest users via API.
