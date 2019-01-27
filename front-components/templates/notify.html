@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+    <p>Welcome</p>
+    <p><b>{{firstname}} {{lastname}} :)</b></p>
+ 		<p>The host<b> {{namehost}}</b> was  notified.</p>
+    <p>You will receive a sms with your Guest Wifi credentials in a few minutes.</p>
+    <p> This page will be redirect to home in:
+        <div id="counter">5</div>
+        <script>
+          setInterval(function() {
+              var div = document.querySelector("#counter");
+              var count = div.textContent * 1 - 1;
+              div.textContent = count;
+              if (count <= 0) {
+                  window.location.replace("http://10.97.43.21:8080/");
+                }
+              },1500);
+            </script>
+            </p>
+    </div>
+{% endblock content %}
