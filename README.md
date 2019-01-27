@@ -68,7 +68,7 @@ Provide a brief overview of how to use the solution  -->
 
 To use the solution we will have to setup the following components:
 
-1) run on your server httpd,flask and node.js with all the modules required
+1) run on your server httpd, flask and node.js with all the modules required
 2) setup an account on Webex Teams
 3) setup a Cisco Identity Services Engine for guest access and enable API services
 4) setup a Cisco DMP 4310
